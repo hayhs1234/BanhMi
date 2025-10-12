@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 12, 2025, 8:15:20 PM
+    Author     : Tien
+*/
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* 2. Header - background color */
+header {
+  background-color: #f39c12; /* vàng cam */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* 3. Nav - background color (nếu bạn thêm nav sau này) */
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* 4. Main - background color + font size */
+main {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Georgia", serif;
+  color: #2c3e50;
+}
+
+/* 8. p - line height */
+p {
+  line-height: 1.6;
+}
+
+/* Thêm một vài chỉnh nhỏ cho hình ảnh */
+img {
+  border-radius: 10px;
+  margin: 10px;
+}
+
