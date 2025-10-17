@@ -3,7 +3,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
 */
 /* 
-    Created on : Oct 12, 2025, 8:15:20 PM
+    Created on : Oct 12, 2025, 8:15:20 PM
     Author     : Tien
 */
 
@@ -16,7 +16,7 @@ body {
   color: #222;
 }
 
-/* 2. Header - background color */
+/* ===== Header ===== */
 header {
   background-color: #f39c12; /* vàng cam */
   color: white;
@@ -24,13 +24,20 @@ header {
   padding: 20px;
 }
 
-/* 3. Nav - background color (nếu bạn thêm nav sau này) */
+/* ===== Nav chỉnh lại theo yêu cầu ===== */
 nav {
+  display: inline-block; /* đổi thành inline-block */
+  width: 80%; /* khoảng 80% chiều rộng */
   background-color: #ffffff;
   padding: 10px;
 }
 
-/* 4. Main - background color + font size */
+/* Ảnh trong nav chỉ chiếm 10% */
+nav img {
+  width: 10%;
+}
+
+/* ===== Main ===== */
 main {
   background-color: #fff;
   font-size: 16px;
@@ -40,6 +47,7 @@ main {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* ===== Footer ===== */
 footer {
   background-color: #333;
   color: #fff;
@@ -47,10 +55,13 @@ footer {
   padding: 10px;
 }
 
+/* ===== Comment lại phần li theo yêu cầu ===== */
+/*
 li {
   display: inline-block;
   width: 150px;
 }
+*/
 
 h1 {
   text-align: center;
@@ -58,14 +69,49 @@ h1 {
   color: #2c3e50;
 }
 
-/* 8. p - line height */
+/* ===== Đoạn văn ===== */
 p {
   line-height: 1.6;
 }
 
-/* Thêm một vài chỉnh nhỏ cho hình ảnh */
+/* ===== Hình ảnh chung ===== */
 img {
   border-radius: 10px;
   margin: 10px;
 }
 
+/* ===== Skip link ===== */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* ===== Grid layout cho phần ảnh ===== */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: start;
+  row-gap: 20px;
+}
+
+/* Chỉ ảnh trong grid có width 100% */
+.grid img {
+  width: 100%;
+}
+
+/* ===== Flex layout (nếu có trang khác cần dùng) ===== */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
